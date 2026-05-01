@@ -1,0 +1,210 @@
+\documentclass[17pt, aspectratio=169]{beamer}
+
+% --- Paquetes de Idioma y Estética ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+% --- Definición de Colores ICMG ---
+\definecolor{ICMGBlue}{HTML}{002366}
+\definecolor{ICMGGold}{HTML}{996515}
+\definecolor{CitationBg}{HTML}{F4F4F4}
+
+% --- Configuración del Tema Beamer ---
+\setbeamercolor{palette primary}{bg=ICMGBlue, fg=white}
+\setbeamercolor{palette secondary}{bg=ICMGBlue, fg=white}
+\setbeamercolor{structure}{fg=ICMGBlue}
+\setbeamercolor{title}{fg=ICMGBlue}
+\setbeamerfont{title}{series=\bfseries}
+
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}%
+    \hspace*{2ex} Clase 1: El Evangelio
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    Iglesia Cristiana Manantial de la Gracia \hspace*{2ex} \insertframenumber{} / \inserttotalframenumber \hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vspace{2pt}
+}
+
+% --- Formato para Citas Bíblicas ---
+\newtcolorbox{citaBiblicaSlide}[1]{
+  enhanced,
+  colback=CitationBg,
+  colframe=ICMGGold,
+  leftrule=3pt,
+  rightrule=0pt,
+  toprule=0pt,
+  bottomrule=0pt,
+  arc=0mm,
+  fonttitle=\bfseries\color{ICMGBlue},
+  title={#1},
+  boxrule=0pt,
+  italic
+}
+
+\title{Clase 1: El Evangelio}
+%\subtitle{Clase 1: El Fundamento de Nuestra Identidad}
+\author{Iglesia Cristiana Manantial de la Gracia}
+\date{Serie: El Bautismo}
+
+% --- Configuración de Diapositiva de Título Intermedia ---
+\AtBeginSection[]{
+  \begin{frame}[plain] % 'plain' quita el pie de página para resaltar el título
+    \centering
+    \vfill
+    {\color{ICMGGold}\rule{0.6\textwidth}{1.5pt}} % Línea decorativa superior
+    \vspace{0.4cm}
+    
+    {\color{ICMGBlue}\scshape\large SECCIÓN \thesection \par} % "SECCIÓN 1", etc.
+    \vspace{0.2cm}
+    {\color{ICMGBlue}\Huge\bfseries \insertsectionhead \par} % Nombre de la sección
+    
+    \vspace{0.4cm}
+    {\color{ICMGGold}\rule{0.6\textwidth}{1.5pt}} % Línea decorativa inferior
+    \vfill
+  \end{frame}
+}
+
+\begin{document}
+
+\begin{frame}[plain]
+    \titlepage
+    \centering
+    \color{ICMGGold}\rule{0.5\textwidth}{1pt}
+\end{frame}
+
+\section{¿Qué es el bautismo?}
+
+\begin{frame}{¿Qué es el bautismo?}
+    \begin{itemize}
+        \item Medio de Gracia (no salva).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{¿Qué es el bautismo?}
+    \begin{itemize}
+        \item Medio de Gracia (no salva).
+        \item Ordenanza (Gran Comisión)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{¿Qué es el bautismo?}
+    \begin{itemize}
+        \item Medio de Gracia (no salva).
+        \item Ordenanza (Gran Comisión).
+        \item Testimonio público de alguien que profesa fe en Cristo.
+    \end{itemize}
+\end{frame}
+
+%\begin{frame}{¿Qué es el bautismo?}
+    %\begin{itemize}
+        %\item Medio de Gracia (no salva).
+        %\item Reconocer que la Biblia es la única %autoridad y estándar infalible.
+    %\end{itemize}
+    
+    %\begin{citaBiblicaSlide}{Juan 17:3}
+        %"Y esta es la vida eterna: que te conozcan a ti, %el único Dios verdadero, y a Jesucristo, a quien %has enviado."
+    %\end{citaBiblicaSlide}
+    
+%\end{frame}
+%Una diapositiva hablando de la Gran Comisión: Mandato de Jesús por lo que nosotros también lo tenemos que cumplir y que, cuando nos enseñan lo que Él ha mandado, nosotros debemos ser bautizados
+
+%El resto de las diapositivas con un análisis del evangelio en Hechos 17: 22-31
+
+\section{¿Qué involucra la Gran Comisi\'on?}
+
+\begin{frame}{¿Qué involucra la Gran Comisi\'on?}
+    \begin{itemize}
+        \item Nosotros fuimos y somos discípulos de alguien.
+    \end{itemize}
+    
+    \begin{citaBiblicaSlide}{Mateo 28:19}
+        " Vayan, pues, y hagan \textbf{discípulos} de todas las naciones, \textbf{bautizándolos} en el nombre del Padre y del Hijo y del Espíritu Santo,"
+    \end{citaBiblicaSlide}
+\end{frame}
+
+\begin{frame}{¿Qué involucra la Gran Comisi\'on?}
+    \begin{itemize}
+        \item El ser disc\'ipulo implica ser bautizado y enseñado (continuamente) (cf. Hechos 2:38).
+    \end{itemize}
+    
+    \begin{citaBiblicaSlide}{Mateo 28:20}
+        "\textbf{enseñándoles} a guardar todo lo que les he mandado; y ¡recuerden! Yo estoy con ustedes todos los días, hasta el fin del mundo."
+    \end{citaBiblicaSlide}
+\end{frame}
+
+\section{El Evangelio: Hechos 17:24-31}
+%Aquí lo mejor creo que es ponerlo en diapositivas normales, no en doble columna y rescatando lo que ya tengo acá abajo, sólo que en mejor formato
+
+%Agregar conclusión chida de lo que me escupió Logos, algo que no es sólo de conocimeinto teórico: La implicación práctica es que guardar los mandamientos de Jesús no es una actividad pasiva o meramente intelectual, sino un proceso dinámico de transformación comunitaria que modela la compasión, la justicia y la reconciliación que Jesús encarnó y enseñó.
+
+\begin{frame}{El Evangelio: Hechos 17:24-31}
+    \begin{itemize}
+        \item Dios como creador soberano.
+    \end{itemize}
+    
+    \begin{citaBiblicaSlide}{Hechos 17:24}
+        "»El Dios que hizo el mundo y todo lo que en él hay, puesto que es Señor del cielo y de la tierra, no mora en templos hechos por manos de hombres,"
+    \end{citaBiblicaSlide}
+\end{frame}
+
+\begin{frame}{El Evangelio: Hechos 17:24-31}
+    \begin{itemize}
+        \item Dios como creador soberano.
+        \item Dios como sustentador de la vida.
+    \end{itemize}
+    
+    \begin{citaBiblicaSlide}{Hechos 17:25}
+        "ni es servido por manos humanas, como si necesitara de algo, puesto que Él da a todos vida y aliento y todas las cosas."
+    \end{citaBiblicaSlide}
+\end{frame}
+
+\begin{frame}{El Evangelio: Hechos 17:24-31}
+    \begin{itemize}
+        \item Dios como creador soberano.
+        \item Dios como sustentador de la vida.
+        \item \textbf{El} propósito del hombre (v.26-28).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{El Evangelio: Hechos 17:24-31}
+    \begin{itemize}
+        \item Dios como creador soberano.
+        \item Dios como sustentador de la vida.
+        \item \textbf{El} propósito del hombre (v.26-28).
+        \item La brecha entre Dios y el hombre (v.29-30).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{El Evangelio: Hechos 17:24-31}
+    \begin{itemize}
+        \item Dios como creador soberano.
+        \item Dios como sustentador de la vida.
+        \item \textbf{El} propósito del hombre (v.26-28).
+        \item La brecha entre Dios y el hombre (v.29-30).
+        \item La justicia de Dios (v.31).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusi\'on}
+    \begin{itemize}
+        \item El conocimiento no salva.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusi\'on}
+    \begin{itemize}
+        \item El conocimiento no salva.
+        \item El verdadero arrepintimiento trae fruto (Efesios 4:1-6).
+    \end{itemize}
+\end{frame}
+
+\end{document}

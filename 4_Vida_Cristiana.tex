@@ -1,0 +1,167 @@
+\documentclass[17pt, aspectratio=169]{beamer}
+
+% --- Paquetes de Idioma y Estética ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+% --- Definición de Colores ICMG ---
+\definecolor{ICMGBlue}{HTML}{002366}
+\definecolor{ICMGGold}{HTML}{996515}
+\definecolor{CitationBg}{HTML}{F4F4F4}
+
+% --- Configuración del Tema Beamer ---
+\setbeamercolor{palette primary}{bg=ICMGBlue, fg=white}
+\setbeamercolor{palette secondary}{bg=ICMGBlue, fg=white}
+\setbeamercolor{structure}{fg=ICMGBlue}
+\setbeamercolor{title}{fg=ICMGBlue}
+\setbeamerfont{title}{series=\bfseries}
+
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}%
+    \hspace*{2ex} Clase 4: Vida Cristiana
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    Iglesia Cristiana Manantial de la Gracia \hspace*{2ex} \insertframenumber{} / \inserttotalframenumber \hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vspace{2pt}
+}
+
+% --- Formato para Citas Bíblicas ---
+\newtcolorbox{citaBiblicaSlide}[1]{
+  enhanced,
+  colback=CitationBg,
+  colframe=ICMGGold,
+  leftrule=3pt,
+  rightrule=0pt,
+  toprule=0pt,
+  bottomrule=0pt,
+  arc=0mm,
+  fonttitle=\bfseries\color{ICMGBlue},
+  title={#1},
+  boxrule=0pt,
+  italic
+}
+
+\title{Clase 4: Vida Cristiana}
+%\subtitle{Clase 1: El Fundamento de Nuestra Identidad}
+\author{Iglesia Cristiana Manantial de la Gracia}
+\date{Serie: El Bautismo}
+
+% --- Configuración de Diapositiva de Título Intermedia ---
+\AtBeginSection[]{
+  \begin{frame}[plain] % 'plain' quita el pie de página para resaltar el título
+    \centering
+    \vfill
+    {\color{ICMGGold}\rule{0.6\textwidth}{1.5pt}} % Línea decorativa superior
+    \vspace{0.4cm}
+    
+    {\color{ICMGBlue}\scshape\large SECCIÓN \thesection \par} % "SECCIÓN 1", etc.
+    \vspace{0.2cm}
+    {\color{ICMGBlue}\Huge\bfseries \insertsectionhead \par} % Nombre de la sección
+    
+    \vspace{0.4cm}
+    {\color{ICMGGold}\rule{0.6\textwidth}{1.5pt}} % Línea decorativa inferior
+    \vfill
+  \end{frame}
+}
+
+\begin{document}
+
+\begin{frame}[plain]
+    \titlepage
+    \centering
+    \color{ICMGGold}\rule{0.5\textwidth}{1pt}
+\end{frame}
+
+\section{El Cuerpo de Cristo \\ 1 Cor. 12:12-26}
+
+\begin{frame}{El Cuerpo de Cristo}
+    \begin{itemize}
+        \item Adopci\'on a una familia (1 Cor. 12:12-13).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{El Cuerpo de Cristo}
+    \begin{itemize}
+        \item Adopci\'on a una familia (1 Cor. 12:12-13).
+        \item Dones y contentamiento (1 Cor. 12:14-20).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{El Cuerpo de Cristo}
+    \begin{itemize}
+        \item Adopci\'on a una familia (1 Cor. 12:12-13).
+        \item Dones y contentamiento (1 Cor. 12:14-20).
+        \item Amor y uni\'on (1 Cor. 12:21-26).
+    \end{itemize}
+\end{frame}
+
+\section{El Cuerpo de Cristo \\ Efesios 4:11-16}
+
+\begin{frame}{El Cuerpo de Cristo}
+    \begin{itemize}
+        \item Dios capacita (Efesios 4:11-12).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{El Cuerpo de Cristo}
+    \begin{itemize}
+        \item Dios capacita (Efesios 4:11-12).
+        \item Edificaci\'on mutua (Efesios 4:13).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{El Cuerpo de Cristo}
+    \begin{itemize}
+        \item Dios capacita (Efesios 4:11-12).
+        \item Edificaci\'on mutua (Efesios 4:13).
+        \item La Gran Comisi\'on (Efesios 4:14-16)
+    \end{itemize}
+\end{frame}
+
+\section{¿Qué hago?}
+\begin{frame}{¿Qué hago?}
+    \begin{itemize}
+        \item Glorificar a Dios, conoci\'endole.
+    \end{itemize}
+        \begin{citaBiblicaSlide}{Catecismo de la Nueva Ciudad, Pregunta 6}
+        \textbf{¿Cómo podemos glorificar a Dios?}\\
+Glorificamos a Dios disfrutándolo, amándolo, confiando en Él y obedeciendo Su voluntad, Sus mandamientos y Su ley.
+    \end{citaBiblicaSlide}
+\end{frame}
+
+%\begin{frame}{¿Qué es el bautismo?}
+    %\begin{itemize}
+        %\item Medio de Gracia (no salva).
+        %\item Reconocer que la Biblia es la única %autoridad y estándar infalible.
+    %\end{itemize}
+    
+    %\begin{citaBiblicaSlide}{Juan 17:3}
+        %"Y esta es la vida eterna: que te conozcan a ti, %el único Dios verdadero, y a Jesucristo, a quien %has enviado."
+    %\end{citaBiblicaSlide}
+    
+%\end{frame}
+
+\begin{frame}{Conclusi\'on}
+    \begin{itemize}
+        \item No \textbf{tienes} que hacer algo, tu redenci\'on está pagada.
+        \item El gozo en el Señor nos llevar\'a a conocerle y obedecerle (arrepentimiento).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusi\'on}
+    \begin{citaBiblicaSlide}{Catecismo de la Nueva Ciudad, Pregunta 44}
+    \textbf{¿Qué es el bautismo?}\\
+El bautismo es el lavamiento con agua en el nombre del Padre, del Hijo y del Espíritu Santo; representa y sella nuestra adopción en Cristo, nuestro lavamiento del pecado y nuestro compromiso a pertenecer al Señor y a Su iglesia.
+    \end{citaBiblicaSlide}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,202 @@
+\documentclass[17pt, aspectratio=169]{beamer}
+
+% --- Paquetes de Idioma y Estética ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+% --- Definición de Colores ICMG ---
+\definecolor{ICMGBlue}{HTML}{002366}
+\definecolor{ICMGGold}{HTML}{996515}
+\definecolor{CitationBg}{HTML}{F4F4F4}
+
+% --- Configuración del Tema Beamer ---
+\setbeamercolor{palette primary}{bg=ICMGBlue, fg=white}
+\setbeamercolor{palette secondary}{bg=ICMGBlue, fg=white}
+\setbeamercolor{structure}{fg=ICMGBlue}
+\setbeamercolor{title}{fg=ICMGBlue}
+\setbeamerfont{title}{series=\bfseries}
+
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}%
+    \hspace*{2ex} Clase 2: El Arrepentimiento
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    Iglesia Cristiana Manantial de la Gracia \hspace*{2ex} \insertframenumber{} / \inserttotalframenumber \hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vspace{2pt}
+}
+
+% --- Formato para Citas Bíblicas ---
+\newtcolorbox{citaBiblicaSlide}[1]{
+  enhanced,
+  colback=CitationBg,
+  colframe=ICMGGold,
+  leftrule=3pt,
+  rightrule=0pt,
+  toprule=0pt,
+  bottomrule=0pt,
+  arc=0mm,
+  fonttitle=\bfseries\color{ICMGBlue},
+  title={#1},
+  boxrule=0pt,
+  italic
+}
+
+\title{Clase 2: El Arrepentimiento}
+%\subtitle{Clase 1: El Fundamento de Nuestra Identidad}
+\author{Iglesia Cristiana Manantial de la Gracia}
+\date{Serie: El Bautismo}
+
+% --- Configuración de Diapositiva de Título Intermedia ---
+\AtBeginSection[]{
+  \begin{frame}[plain] % 'plain' quita el pie de página para resaltar el título
+    \centering
+    \vfill
+    {\color{ICMGGold}\rule{0.6\textwidth}{1.5pt}} % Línea decorativa superior
+    \vspace{0.4cm}
+    
+    {\color{ICMGBlue}\scshape\large SECCIÓN \thesection \par} % "SECCIÓN 1", etc.
+    \vspace{0.2cm}
+    {\color{ICMGBlue}\Huge\bfseries \insertsectionhead \par} % Nombre de la sección
+    
+    \vspace{0.4cm}
+    {\color{ICMGGold}\rule{0.6\textwidth}{1.5pt}} % Línea decorativa inferior
+    \vfill
+  \end{frame}
+}
+
+\begin{document}
+
+\begin{frame}[plain]
+    \titlepage
+    \centering
+    \color{ICMGGold}\rule{0.5\textwidth}{1pt}
+\end{frame}
+
+\section{¿Qué es el arrepentimiento?}
+
+\begin{frame}{¿Qué es el arrepentimiento?}
+    \begin{itemize}
+        \item Cambio radical de mentalidad y propósito.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{¿Qué es el arrepentimiento?}
+    \begin{itemize}
+        \item Cambio radical de mentalidad y propósito.
+        \item Involucra:
+        \begin{itemize}
+            \item Verdadero sentido de culpa y pecaminosidad (2 Cor. 7:10).
+            \item Abrazar la misericordia de Dios en Cristo.
+            \item Aborrecimiento por el pecado y giro a Dios (Salmo 119:128).
+            \item Anhelo constante de una vida santa y obediente a Dios.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\section{¿Qué NO es el arrepentimiento?}
+
+\begin{frame}{¿Qué NO es el arrepentimiento?}
+    \begin{itemize}
+        \item Miedo a las consecuencias (Hechos 8:18-24).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{¿Qué NO es el arrepentimiento?}
+    \begin{itemize}
+        \item Miedo a las consecuencias (Hechos 8:18-24).
+        \item Reconocer el pecado (1 Samuel 15:17-21, 24-25).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{¿Qué NO es el arrepentimiento?}
+    \begin{itemize}
+        \item Miedo a las consecuencias (Hechos 8:18-24).
+        \item Reconocer el pecado (1 Samuel 15:17-21, 24-25).
+    \end{itemize}
+
+    \begin{citaBiblicaSlide}{Salmo 51:17}
+        "Los sacrificios de Dios son el espíritu contrito;
+Al corazón contrito y humillado, oh Dios, no despreciarás."
+    \end{citaBiblicaSlide}
+    
+\end{frame}
+
+\begin{frame}{}
+
+    \begin{citaBiblicaSlide}{Marcos 1:15}
+        "«El tiempo se ha cumplido», decía, «y el reino de Dios se ha acercado; arrepiéntanse y crean en el evangelio»."
+    \end{citaBiblicaSlide}
+    
+\end{frame}
+
+%\begin{frame}{¿Qué es el bautismo?}
+    %\begin{itemize}
+        %\item Medio de Gracia (no salva).
+        %\item Reconocer que la Biblia es la única %autoridad y estándar infalible.
+    %\end{itemize}
+    
+    %\begin{citaBiblicaSlide}{Juan 17:3}
+        %"Y esta es la vida eterna: que te conozcan a ti, %el único Dios verdadero, y a Jesucristo, a quien %has enviado."
+    %\end{citaBiblicaSlide}
+    
+%\end{frame}
+
+
+\section{El Hijo Pr\'odigo}
+%PAsajes y cómo cumple con la definición, Lucas 15:11-24
+
+\begin{frame}{El Hijo Pr\'odigo: Lucas 15:11-24}
+    \begin{itemize}
+        \item Reconoce su miseria (v. 17).
+        
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{El Hijo Pr\'odigo: Lucas 15:11-24}
+    \begin{itemize}
+        \item Reconoce su miseria (v. 17).
+        \item Abandono de su condici\'on para ir con su padre (v. 20).
+        
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{El Hijo Pr\'odigo: Lucas 15:11-24}
+    \begin{itemize}
+        \item Reconoce su miseria (v. 17).
+        \item Abandono de su condici\'on para ir con su padre (v. 20).
+        \item Reconoce ofensa y pecado (v. 21).
+
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusi\'on}
+    \begin{itemize}
+        \item El fruto del arrepentimiento lo vemos en nuestro pecados m\'as atesorados.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusi\'on}
+    \begin{itemize}
+        \item El fruto del arrepentimiento lo vemos en nuestro pecados m\'as atesorados.
+        \item Agradezcamos por el pecado del que Dios nos ha librado.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusi\'on}
+    \begin{itemize}
+        \item El fruto del arrepentimiento lo vemos en nuestro pecados m\'as atesorados.
+        \item Agradezcamos por el pecado del que Dios nos ha librado.
+        \item Dependamos de Dios para vivir en obediencia.
+    \end{itemize}
+\end{frame}
+
+\end{document}
